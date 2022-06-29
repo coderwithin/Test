@@ -1,10 +1,5 @@
-// Example of Google Sign In in React Native Android and iOS App
-// https://aboutreact.com/example-of-google-sign-in-in-react-native/
-
-// Import React in our code
 import React, { useState, useEffect } from 'react';
 
-// Import all the components we are going to use
 import {
 	SafeAreaView,
 	StyleSheet,
@@ -16,7 +11,6 @@ import {
 	TextInput
 } from 'react-native';
 
-// Import Google Signin
 import { GoogleSignin, GoogleSigninButton, statusCodes } from 'react-native-google-signin';
 
 const App = () => {
@@ -60,11 +54,8 @@ const App = () => {
 	};
 
 	const _signIn = async () => {
-		// It will prompt google Signin Widget
 		try {
 			await GoogleSignin.hasPlayServices({
-				// Check if device has Google Play Services installed
-				// Always resolves to true on iOS
 				showPlayServicesUpdateDialog: true
 			});
 			const userInfo = await GoogleSignin.signIn();
