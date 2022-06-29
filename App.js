@@ -168,7 +168,7 @@ const App = () => {
 										source={{ uri: 'https://cdn-icons-png.flaticon.com/512/2991/2991148.png' }}
 									/>
 
-									<Text style={{ color: '#F95C3F', width: '40%', textAlign: 'center' }}> Signup</Text>
+									<Text style={{ color: '#F95C3F', width: '40%', textAlign: 'center' }}>Google</Text>
 								</TouchableOpacity>
 
 								<View
