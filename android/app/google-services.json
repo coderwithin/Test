@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "243708133992",
+    "project_id": "feisty-script-296610",
+    "storage_bucket": "feisty-script-296610.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243708133992:android:c562cf89b56ede9b4671dd",
+        "android_client_info": {
+          "package_name": "com.awesomeproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "243708133992-svcuj6lv79f9pobq5ccfcf91hfp2ja6h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCL4YzeKZaaxmO-gZocaV0Hj39IDxsRPWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "243708133992-svcuj6lv79f9pobq5ccfcf91hfp2ja6h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
